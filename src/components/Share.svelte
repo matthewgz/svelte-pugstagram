@@ -1,16 +1,12 @@
 <style>
   .Share {
-    border: 1px solid rgba(219, 219, 219, 1);
-    border-radius: 4px;
     background-color: white;
-    margin: 0 0 2em 0;
-    width: 300px;
+    border-radius: 4px;
+    border: 1px solid rgba(219, 219, 219, 1);
     height: 80px;
-    position: absolute;
-    top: 300px;
-    left: 30%;
-    z-index: 9;
+    margin: 0 0 2em 0;
     padding: 1em;
+    width: 300px;
   }
   .Share-head {
     display: flex;
@@ -45,7 +41,7 @@
   </div>
   <div class="Share-content">
     <a
-      href="https://www.facebook.com/sharer.php?&u=https://pugstagram.com"
+      href="https://www.facebook.com/sharer.php?&u=https://svelt-pugstagram.netlify.app/"
       target="_blank">
       <i class="fab fa-facebook-square" />
       Compartir en Facebook

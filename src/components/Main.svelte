@@ -11,6 +11,13 @@
     grid-gap: 2em;
     padding: 2em 0;
   }
+
+  @media (max-width: 768px) {
+    .Main-container {
+      grid-template-columns: 1fr;
+      padding: 2em .5em;
+    }
+  }
 </style>
 
 <div class="Main">

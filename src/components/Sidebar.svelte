@@ -15,6 +15,13 @@
   .Sidebar-container {
     position: fixed;
   }
+
+  @media (max-width: 600px) {
+    .Sidebar {
+      display: none;
+      visibility: hidden;
+    }
+  }
 </style>
 
 <div class="Sidebar">
